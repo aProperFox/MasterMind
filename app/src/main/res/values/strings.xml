@@ -4,5 +4,7 @@
     <string name="app_name">MasterMind</string>
     <string name="hello_world">Hello world!</string>
     <string name="action_settings">Settings</string>
+    <string name="play_game">Tap to play game!</string>
+    <string name="guess_row">GO!</string>
 
 </resources>

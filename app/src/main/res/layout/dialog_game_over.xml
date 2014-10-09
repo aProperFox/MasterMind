@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/game_over_layout"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/rounded_dialog">
+
+    <LinearLayout
+        android:id="@+id/peg_views"
+        android:layout_width="match_parent"
+        android:layout_height="60sp"
+        android:layout_marginTop="5sp"
+        android:layout_marginBottom="5sp"
+        android:layout_centerVertical="true">
+
+        <View
+            android:layout_weight="2"
+            android:layout_width="0sp"
+            android:layout_height="wrap_content"/>
+
+        <com.carridegames.mastermind.PegView
+            android:id="@+id/end_peg_0"
+            android:layout_weight="2"
+            android:layout_width="0sp"
+            android:layout_height="match_parent" />
+
+        <com.carridegames.mastermind.PegView
+            android:id="@+id/end_peg_1"
+            android:layout_weight="2"
+            android:layout_width="0sp"
+            android:layout_height="match_parent" />
+
+        <com.carridegames.mastermind.PegView
+            android:id="@+id/end_peg_2"
+            android:layout_weight="2"
+            android:layout_width="0sp"
+            android:layout_height="match_parent" />
+
+        <com.carridegames.mastermind.PegView
+            android:id="@+id/end_peg_3"
+            android:layout_weight="2"
+            android:layout_width="0sp"
+            android:layout_height="match_parent" />
+
+        <View
+            android:layout_weight="2"
+            android:layout_width="0sp"
+            android:layout_height="wrap_content"/>
+
+     </LinearLayout>
+
+    <TextView
+        android:id="@+id/game_over_text"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_above="@id/peg_views"
+        android:text="Nice Work!"
+        android:textColor="#b3b3b3"
+        android:textSize="40sp"
+        android:layout_centerHorizontal="true"
+        android:gravity="center"
+        android:layout_marginTop="5sp"
+        android:layout_marginBottom="5sp"/>
+
+    <LinearLayout
+        android:id="@+id/continue_buttons"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/peg_views"
+        android:layout_marginTop="5sp"
+        android:layout_marginBottom="5sp">
+
+        <Button
+            android:id="@+id/play_again_button"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:text="New Game"
+            android:layout_margin="5sp"
+            android:padding="5sp"
+            android:layout_weight="1"
+            android:onClick="newGame"
+            android:background="@drawable/rounded_button"
+            android:gravity="center"
+            android:textSize="25sp"
+            android:textColor="#b3b3b3"/>
+        <Button
+            android:id="@+id/new_game_button"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:text="Main Menu"
+            android:padding="5sp"
+            android:layout_margin="5sp"
+            android:layout_weight="1"
+            android:background="@drawable/rounded_button"
+            android:gravity="center"
+            android:onClick="mainMenu"
+            android:textSize="25sp"
+            android:textColor="#b3b3b3"/>
+
+    </LinearLayout>
+
+
+</RelativeLayout>

@@ -1,0 +1,692 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical"
+    android:padding="10sp"
+    android:background="#b3b3b3">
+
+    <LinearLayout
+        android:id="@+id/game_layout"
+        android:layout_width="fill_parent"
+        android:layout_height="0dp"
+        android:background="#b3b3b3"
+        android:orientation="vertical"
+        android:layout_weight="12">
+
+        <TableRow
+            android:id="@+id/row_9"
+            android:layout_width="fill_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:orientation="horizontal">
+
+            <View
+                android:layout_height="fill_parent"
+                android:layout_width="0dp"
+                android:layout_weight="2"/>
+
+            <com.carridegames.mastermind.PegView
+                android:id="@+id/peg_36"
+                android:layout_marginLeft="5sp"
+                android:layout_marginRight="5sp"
+                android:layout_height="fill_parent"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:onClick="setCurrentEditPeg"/>
+            <com.carridegames.mastermind.PegView
+                android:id="@+id/peg_37"
+                android:layout_marginLeft="5sp"
+                android:layout_marginRight="5sp"
+                android:layout_height="fill_parent"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:onClick="setCurrentEditPeg"/>
+            <com.carridegames.mastermind.PegView
+                android:id="@+id/peg_38"
+                android:layout_marginLeft="5sp"
+                android:layout_marginRight="5sp"
+                android:layout_height="fill_parent"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:onClick="setCurrentEditPeg"/>
+            <com.carridegames.mastermind.PegView
+                android:id="@+id/peg_39"
+                android:layout_marginLeft="5sp"
+                android:layout_marginRight="5sp"
+                android:layout_height="fill_parent"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:onClick="setCurrentEditPeg"/>
+
+            <ImageView
+                android:id="@+id/state_image_view_9"
+                android:layout_height="fill_parent"
+                android:layout_width="0dp"
+                android:layout_weight="2"
+                android:layout_gravity="center"
+                android:layout_margin="2sp"/>
+
+        </TableRow>
+
+        <TableRow
+            android:id="@+id/row_8"
+            android:layout_width="fill_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:orientation="horizontal">
+
+            <View
+                android:layout_height="fill_parent"
+                android:layout_width="0dp"
+                android:layout_weight="2"/>
+
+            <com.carridegames.mastermind.PegView
+                android:id="@+id/peg_32"
+                android:layout_marginLeft="5sp"
+                android:layout_marginRight="5sp"
+                android:layout_height="fill_parent"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:onClick="setCurrentEditPeg"/>
+            <com.carridegames.mastermind.PegView
+                android:id="@+id/peg_33"
+                android:layout_marginLeft="5sp"
+                android:layout_marginRight="5sp"
+                android:layout_height="fill_parent"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:onClick="setCurrentEditPeg"/>
+            <com.carridegames.mastermind.PegView
+                android:id="@+id/peg_34"
+                android:layout_marginLeft="5sp"
+                android:layout_marginRight="5sp"
+                android:layout_height="fill_parent"
+                android:layout_width="0dp"
+                android:layout_weight="1"/>
+            <com.carridegames.mastermind.PegView
+                android:id="@+id/peg_35"
+                android:layout_marginLeft="5sp"
+                android:layout_marginRight="5sp"
+                android:layout_height="fill_parent"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:onClick="setCurrentEditPeg"/>
+
+            <ImageView
+                android:id="@+id/state_image_view_8"
+                android:layout_height="fill_parent"
+                android:layout_width="0dp"
+                android:layout_weight="2"
+                android:layout_gravity="center"
+                android:layout_margin="2sp"/>
+
+        </TableRow>
+
+        <TableRow
+            android:id="@+id/row_7"
+            android:layout_width="fill_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:orientation="horizontal">
+
+            <View
+                android:layout_height="fill_parent"
+                android:layout_width="0dp"
+                android:layout_weight="2"/>
+
+            <com.carridegames.mastermind.PegView
+                android:id="@+id/peg_28"
+                android:layout_marginLeft="5sp"
+                android:layout_marginRight="5sp"
+                android:layout_height="fill_parent"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:onClick="setCurrentEditPeg"/>
+            <com.carridegames.mastermind.PegView
+                android:id="@+id/peg_29"
+                android:layout_marginLeft="5sp"
+                android:layout_marginRight="5sp"
+                android:layout_height="fill_parent"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:onClick="setCurrentEditPeg"/>
+            <com.carridegames.mastermind.PegView
+                android:id="@+id/peg_30"
+                android:layout_marginLeft="5sp"
+                android:layout_marginRight="5sp"
+                android:layout_height="fill_parent"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:onClick="setCurrentEditPeg"/>
+            <com.carridegames.mastermind.PegView
+                android:id="@+id/peg_31"
+                android:layout_marginLeft="5sp"
+                android:layout_marginRight="5sp"
+                android:layout_height="fill_parent"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:onClick="setCurrentEditPeg"/>
+
+            <ImageView
+                android:id="@+id/state_image_view_7"
+                android:layout_height="fill_parent"
+                android:layout_width="0dp"
+                android:layout_weight="2"
+                android:layout_gravity="center"
+                android:layout_margin="2sp"/>
+
+        </TableRow>
+
+        <TableRow
+            android:id="@+id/row_6"
+            android:layout_width="fill_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:orientation="horizontal">
+
+            <View
+                android:layout_height="fill_parent"
+                android:layout_width="0dp"
+                android:layout_weight="2"/>
+
+            <com.carridegames.mastermind.PegView
+                android:id="@+id/peg_24"
+                android:layout_marginLeft="5sp"
+                android:layout_marginRight="5sp"
+                android:layout_height="fill_parent"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:onClick="setCurrentEditPeg"/>
+            <com.carridegames.mastermind.PegView
+                android:id="@+id/peg_25"
+                android:layout_marginLeft="5sp"
+                android:layout_marginRight="5sp"
+                android:layout_height="fill_parent"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:onClick="setCurrentEditPeg"/>
+            <com.carridegames.mastermind.PegView
+                android:id="@+id/peg_26"
+                android:layout_marginLeft="5sp"
+                android:layout_marginRight="5sp"
+                android:layout_height="fill_parent"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:onClick="setCurrentEditPeg"/>
+            <com.carridegames.mastermind.PegView
+                android:id="@+id/peg_27"
+                android:layout_marginLeft="5sp"
+                android:layout_marginRight="5sp"
+                android:layout_height="fill_parent"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:onClick="setCurrentEditPeg"/>
+
+            <ImageView
+                android:id="@+id/state_image_view_6"
+                android:layout_height="fill_parent"
+                android:layout_width="0dp"
+                android:layout_weight="2"
+                android:layout_gravity="center"
+                android:layout_margin="2sp"/>
+
+        </TableRow>
+
+        <TableRow
+            android:id="@+id/row_5"
+            android:layout_width="fill_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:orientation="horizontal">
+
+            <View
+                android:layout_height="fill_parent"
+                android:layout_width="0dp"
+                android:layout_weight="2"/>
+
+            <com.carridegames.mastermind.PegView
+                android:id="@+id/peg_20"
+                android:layout_marginLeft="5sp"
+                android:layout_marginRight="5sp"
+                android:layout_height="fill_parent"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:onClick="setCurrentEditPeg"/>
+            <com.carridegames.mastermind.PegView
+                android:id="@+id/peg_21"
+                android:layout_marginLeft="5sp"
+                android:layout_marginRight="5sp"
+                android:layout_height="fill_parent"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:onClick="setCurrentEditPeg"/>
+            <com.carridegames.mastermind.PegView
+                android:id="@+id/peg_22"
+                android:layout_marginLeft="5sp"
+                android:layout_marginRight="5sp"
+                android:layout_height="fill_parent"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:onClick="setCurrentEditPeg"/>
+            <com.carridegames.mastermind.PegView
+                android:id="@+id/peg_23"
+                android:layout_marginLeft="5sp"
+                android:layout_marginRight="5sp"
+                android:layout_height="fill_parent"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:onClick="setCurrentEditPeg"/>
+
+            <ImageView
+                android:id="@+id/state_image_view_5"
+                android:layout_height="fill_parent"
+                android:layout_width="0dp"
+                android:layout_weight="2"
+                android:layout_gravity="center"
+                android:layout_margin="2sp"/>
+
+        </TableRow>
+
+        <TableRow
+            android:id="@+id/row_4"
+            android:layout_width="fill_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:orientation="horizontal">
+
+            <View
+                android:layout_height="fill_parent"
+                android:layout_width="0dp"
+                android:layout_weight="2"/>
+
+            <com.carridegames.mastermind.PegView
+                android:id="@+id/peg_16"
+                android:layout_marginLeft="5sp"
+                android:layout_marginRight="5sp"
+                android:layout_height="fill_parent"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:onClick="setCurrentEditPeg"/>
+            <com.carridegames.mastermind.PegView
+                android:id="@+id/peg_17"
+                android:layout_marginLeft="5sp"
+                android:layout_marginRight="5sp"
+                android:layout_height="fill_parent"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:onClick="setCurrentEditPeg"/>
+            <com.carridegames.mastermind.PegView
+                android:id="@+id/peg_18"
+                android:layout_marginLeft="5sp"
+                android:layout_marginRight="5sp"
+                android:layout_height="fill_parent"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:onClick="setCurrentEditPeg"/>
+            <com.carridegames.mastermind.PegView
+                android:id="@+id/peg_19"
+                android:layout_marginLeft="5sp"
+                android:layout_marginRight="5sp"
+                android:layout_height="fill_parent"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:onClick="setCurrentEditPeg"/>
+
+            <ImageView
+                android:id="@+id/state_image_view_4"
+                android:layout_height="fill_parent"
+                android:layout_width="0dp"
+                android:layout_weight="2"
+                android:layout_gravity="center"
+                android:layout_margin="2sp"/>
+
+        </TableRow>
+
+        <TableRow
+            android:id="@+id/row_3"
+            android:layout_width="fill_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:orientation="horizontal">
+
+            <View
+                android:layout_height="fill_parent"
+                android:layout_width="0dp"
+                android:layout_weight="2"/>
+
+            <com.carridegames.mastermind.PegView
+                android:id="@+id/peg_12"
+                android:layout_marginLeft="5sp"
+                android:layout_marginRight="5sp"
+                android:layout_height="fill_parent"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:onClick="setCurrentEditPeg"/>
+            <com.carridegames.mastermind.PegView
+                android:id="@+id/peg_13"
+                android:layout_marginLeft="5sp"
+                android:layout_marginRight="5sp"
+                android:layout_height="fill_parent"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:onClick="setCurrentEditPeg"/>
+            <com.carridegames.mastermind.PegView
+                android:id="@+id/peg_14"
+                android:layout_marginLeft="5sp"
+                android:layout_marginRight="5sp"
+                android:layout_height="fill_parent"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:onClick="setCurrentEditPeg"/>
+            <com.carridegames.mastermind.PegView
+                android:id="@+id/peg_15"
+                android:layout_marginLeft="5sp"
+                android:layout_marginRight="5sp"
+                android:layout_height="fill_parent"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:onClick="setCurrentEditPeg"/>
+
+            <ImageView
+                android:id="@+id/state_image_view_3"
+                android:layout_height="fill_parent"
+                android:layout_width="0dp"
+                android:layout_weight="2"
+                android:layout_gravity="center"
+                android:layout_margin="2sp"/>
+
+        </TableRow>
+
+        <TableRow
+            android:id="@+id/row_2"
+            android:layout_width="fill_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:orientation="horizontal">
+
+            <View
+                android:layout_height="fill_parent"
+                android:layout_width="0dp"
+                android:layout_weight="2"/>
+
+            <com.carridegames.mastermind.PegView
+                android:id="@+id/peg_8"
+                android:layout_marginLeft="5sp"
+                android:layout_marginRight="5sp"
+                android:layout_height="fill_parent"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:onClick="setCurrentEditPeg"/>
+            <com.carridegames.mastermind.PegView
+                android:id="@+id/peg_9"
+                android:layout_marginLeft="5sp"
+                android:layout_marginRight="5sp"
+                android:layout_height="fill_parent"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:onClick="setCurrentEditPeg"/>
+            <com.carridegames.mastermind.PegView
+                android:id="@+id/peg_10"
+                android:layout_marginLeft="5sp"
+                android:layout_marginRight="5sp"
+                android:layout_height="fill_parent"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:onClick="setCurrentEditPeg"/>
+            <com.carridegames.mastermind.PegView
+                android:id="@+id/peg_11"
+                android:layout_marginLeft="5sp"
+                android:layout_marginRight="5sp"
+                android:layout_height="fill_parent"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:onClick="setCurrentEditPeg"/>
+
+            <ImageView
+                android:id="@+id/state_image_view_2"
+                android:layout_height="fill_parent"
+                android:layout_width="0dp"
+                android:layout_weight="2"
+                android:layout_gravity="center"
+                android:layout_margin="2sp"/>
+
+        </TableRow>
+
+        <TableRow
+            android:id="@+id/row_1"
+            android:layout_width="fill_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:orientation="horizontal">
+
+            <View
+                android:layout_height="fill_parent"
+                android:layout_width="0dp"
+                android:layout_weight="2"/>
+
+            <com.carridegames.mastermind.PegView
+                android:id="@+id/peg_4"
+                android:layout_marginLeft="5sp"
+                android:layout_marginRight="5sp"
+                android:layout_height="fill_parent"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:onClick="setCurrentEditPeg"/>
+            <com.carridegames.mastermind.PegView
+                android:id="@+id/peg_5"
+                android:layout_marginLeft="5sp"
+                android:layout_marginRight="5sp"
+                android:layout_height="fill_parent"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:onClick="setCurrentEditPeg"/>
+            <com.carridegames.mastermind.PegView
+                android:id="@+id/peg_6"
+                android:layout_marginLeft="5sp"
+                android:layout_marginRight="5sp"
+                android:layout_height="fill_parent"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:onClick="setCurrentEditPeg"/>
+            <com.carridegames.mastermind.PegView
+                android:id="@+id/peg_7"
+                android:layout_marginLeft="5sp"
+                android:layout_marginRight="5sp"
+                android:layout_height="fill_parent"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:onClick="setCurrentEditPeg"/>
+
+            <ImageView
+                android:id="@+id/state_image_view_1"
+                android:layout_height="fill_parent"
+                android:layout_width="0dp"
+                android:layout_weight="2"
+                android:layout_gravity="center"
+                android:layout_margin="2sp"/>
+
+        </TableRow>
+
+        <TableRow
+            android:id="@+id/row_0"
+            android:layout_width="fill_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:orientation="horizontal">
+
+            <View
+                android:layout_height="fill_parent"
+                android:layout_width="0dp"
+                android:layout_weight="2"/>
+
+            <com.carridegames.mastermind.PegView
+                android:id="@+id/peg_0"
+                android:layout_marginLeft="5sp"
+                android:layout_marginRight="5sp"
+                android:layout_height="fill_parent"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:onClick="setCurrentEditPeg"/>
+            <com.carridegames.mastermind.PegView
+                android:id="@+id/peg_1"
+                android:layout_marginLeft="5sp"
+                android:layout_marginRight="5sp"
+                android:layout_height="fill_parent"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:onClick="setCurrentEditPeg"/>
+            <com.carridegames.mastermind.PegView
+                android:id="@+id/peg_2"
+                android:layout_marginLeft="5sp"
+                android:layout_marginRight="5sp"
+                android:layout_height="fill_parent"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:onClick="setCurrentEditPeg"/>
+            <com.carridegames.mastermind.PegView
+                android:id="@+id/peg_3"
+                android:layout_marginLeft="5sp"
+                android:layout_marginRight="5sp"
+                android:layout_height="fill_parent"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:onClick="setCurrentEditPeg"/>
+
+            <ImageView
+                android:id="@+id/state_image_view_0"
+                android:layout_height="fill_parent"
+                android:layout_width="0dp"
+                android:layout_weight="2"
+                android:layout_gravity="center"
+                android:layout_margin="2sp"/>
+
+        </TableRow>
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="0dp"
+        android:layout_weight="3"
+        android:layout_marginLeft="10sp"
+        android:layout_marginRight="10sp"
+        android:baselineAligned="false"
+        android:orientation="horizontal"
+        android:background="@drawable/rounded_dialog">
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_weight="60"
+            android:layout_height="fill_parent"
+            android:orientation="vertical">
+
+            <TableRow
+                android:layout_width="fill_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                android:orientation="horizontal">
+
+                <View
+                    android:layout_height="fill_parent"
+                    android:layout_width="0dp"
+                    android:layout_weight="0"/>
+
+                <com.carridegames.mastermind.PegView
+                    android:id="@+id/peg_purple"
+                    android:layout_height="fill_parent"
+                    android:layout_width="0dp"
+                    android:layout_weight="3"
+                    android:onClick="onPegClick"
+                    android:layout_marginTop="5sp"
+                    android:layout_marginLeft="5sp"/>
+                <com.carridegames.mastermind.PegView
+                    android:id="@+id/peg_gray"
+                    android:layout_height="fill_parent"
+                    android:layout_width="0dp"
+                    android:layout_weight="3"
+                    android:onClick="onPegClick"
+                    android:layout_marginTop="5sp"/>
+                <com.carridegames.mastermind.PegView
+                    android:id="@+id/peg_yellow"
+                    android:layout_height="fill_parent"
+                    android:layout_width="0dp"
+                    android:layout_weight="3"
+                    android:onClick="onPegClick"
+                    android:layout_marginTop="5sp"/>
+                <com.carridegames.mastermind.PegView
+                    android:id="@+id/peg_orange"
+                    android:layout_height="fill_parent"
+                    android:layout_width="0dp"
+                    android:layout_weight="3"
+                    android:onClick="onPegClick"
+                    android:layout_marginTop="5sp"/>
+
+            </TableRow>
+
+            <TableRow
+                android:layout_width="fill_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                android:orientation="horizontal">
+
+                <View
+                    android:layout_height="fill_parent"
+                    android:layout_width="0dp"
+                    android:layout_weight="0"/>
+
+                <com.carridegames.mastermind.PegView
+                    android:id="@+id/peg_black"
+                    android:layout_height="fill_parent"
+                    android:layout_width="0dp"
+                    android:layout_weight="3"
+                    android:onClick="onPegClick"
+                    android:layout_marginBottom="5sp"
+                    android:layout_marginLeft="5sp"/>
+                <com.carridegames.mastermind.PegView
+                    android:id="@+id/peg_green"
+                    android:layout_height="fill_parent"
+                    android:layout_width="0dp"
+                    android:layout_weight="3"
+                    android:onClick="onPegClick"
+                    android:layout_marginBottom="5sp"/>
+                <com.carridegames.mastermind.PegView
+                    android:id="@+id/peg_red"
+                    android:layout_height="fill_parent"
+                    android:layout_width="0dp"
+                    android:layout_weight="3"
+                    android:onClick="onPegClick"
+                    android:layout_marginBottom="5sp"/>
+                <com.carridegames.mastermind.PegView
+                    android:id="@+id/peg_blue"
+                    android:layout_height="fill_parent"
+                    android:layout_width="0dp"
+                    android:layout_weight="3"
+                    android:onClick="onPegClick"
+                    android:layout_marginBottom="5sp"/>
+
+            </TableRow>
+
+
+        </LinearLayout>
+        <RelativeLayout
+            android:layout_width="0dp"
+            android:layout_weight="30"
+            android:layout_height="match_parent">
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="@string/guess_row"
+                android:background="@drawable/rounded_button"
+                android:layout_centerVertical="true"
+                android:layout_centerHorizontal="true"
+                android:layout_margin="5sp"
+                android:onClick="guessRow"
+                android:alpha="0.3"/>
+        </RelativeLayout>
+
+    </LinearLayout>
+
+</LinearLayout>
